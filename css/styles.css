@@ -16,20 +16,25 @@ img {
 }
 
 .subtitle h2 {
+  font-weight: 200;
+  color: #a3a5ae;
+}
+
+.subtitle h3 {
   color: #a3a5ae;
   font-weight: 200;
 }
 
 .container {
-  width: 90%;
+  width: 85%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 4em 0;
 }
 
 .card_icon {
-  width: 5em;
-  height: 5em;
+  width: 6em;
+  height: 6em;
 }
 
 .header_area {
@@ -42,16 +47,27 @@ img {
 }
 
 .card {
-  font-size: .7rem;
+  font-size: .9rem;
   background-color: #fff;
-  min-height: 20em;
-  padding: 2em;
-  margin: 2em;
+  min-height: 18em;
+  padding: 1em 3em;
+  margin: 2em 0 3em 0;
   border-top: .3em solid;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 14px 2px HSLa(229, 6%, 66%, 0.4);
+          box-shadow: 0 4px 14px 2px HSLa(229, 6%, 66%, 0.4);
 }
 
 .card_area {
-  padding-bottom: 3em;
+  margin-bottom: 3em;
+}
+
+.card_header h1 {
+  margin-bottom: 0;
+}
+
+.card_subtitle h3 {
+  margin-top: 0;
 }
 
 .card_1 {
@@ -71,7 +87,7 @@ img {
 }
 
 .card_icon {
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 .card_icon-area {

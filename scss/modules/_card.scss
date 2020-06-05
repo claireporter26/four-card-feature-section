@@ -1,13 +1,23 @@
 .card {
-    font-size: .7rem;
+    font-size: .9rem;
     background-color: #fff;
-    min-height: 20em;
-    padding: 2em;
-    margin: 2em;
+    min-height: 18em;
+    padding: 1em 3em;
+    margin: 2em 0 3em 0;
     border-top: .3em solid;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px 2px $grayishBlueOpacity;
 
     &_area {
-        padding-bottom: 3em;
+        margin-bottom: 3em;
+    }
+
+    &_header h1 {
+        margin-bottom: 0;
+    }
+
+    &_subtitle h3{
+        margin-top: 0;
     }
 
     &_1 {
@@ -28,7 +38,7 @@
 }
 
 .card_icon {
-    padding-top: 5em;
+    padding-top: 2em;
    
     &-area {
         display: flex;
