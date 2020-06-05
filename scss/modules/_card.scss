@@ -1,0 +1,21 @@
+.card {
+    font-size: .7rem;
+    background-color: #fff;
+    min-height: 20em;
+    padding: 2em;
+    margin: 2em;
+    border-top: .3em solid;
+
+    &_area {
+        padding-bottom: 3em;
+    }
+}
+
+.card_icon {
+    padding-top: 5em;
+   
+    &-area {
+        display: flex;
+        justify-content: right;
+    }
+}

@@ -3,15 +3,68 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  background-color: #fafafa;
 }
 
 img {
   width: 100%;
 }
 
+.header {
+  color: #4c4e61;
+}
+
+.subtitle h2 {
+  color: #a3a5ae;
+  font-weight: 200;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+
 .card_icon {
   width: 32px;
   height: 32px;
+}
+
+.header_area {
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.header_main--light {
+  font-weight: 200;
+}
+
+.card {
+  font-size: .7rem;
+  background-color: #fff;
+  min-height: 20em;
+  padding: 2em;
+  margin: 2em;
+  border-top: .3em solid;
+}
+
+.card_area {
+  padding-bottom: 3em;
+}
+
+.card_icon {
+  padding-top: 5em;
+}
+
+.card_icon-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .attribution {
