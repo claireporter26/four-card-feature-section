@@ -2,5 +2,9 @@
     width: 85%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 4em 0;
+    padding: 2em 0;
+
+    @include atLarge {
+        padding: 0;
+    }
 }
