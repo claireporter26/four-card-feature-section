@@ -9,6 +9,22 @@
     &_area {
         padding-bottom: 3em;
     }
+
+    &_1 {
+        border-color: $primaryCyan;
+    }
+
+    &_2 {
+        border-color: $primaryRed;
+    }
+
+    &_3 {
+        border-color: $primaryOrange;
+    }
+
+    &_4 {
+        border-color: $primaryBlue;
+    }
 }
 
 .card_icon {

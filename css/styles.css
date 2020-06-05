@@ -21,15 +21,15 @@ img {
 }
 
 .container {
-  width: 85%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 5em 0;
+  padding: 4em 0;
 }
 
 .card_icon {
-  width: 32px;
-  height: 32px;
+  width: 5em;
+  height: 5em;
 }
 
 .header_area {
@@ -52,6 +52,22 @@ img {
 
 .card_area {
   padding-bottom: 3em;
+}
+
+.card_1 {
+  border-color: #45d3d3;
+}
+
+.card_2 {
+  border-color: #ea5353;
+}
+
+.card_3 {
+  border-color: #fcaf4a;
+}
+
+.card_4 {
+  border-color: #549ef2;
 }
 
 .card_icon {
